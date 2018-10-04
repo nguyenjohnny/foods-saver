@@ -4,7 +4,7 @@ from forms import RegistrationForm, LoginForm
 
 app = Flask(__name__)
 
-app.config['SECRET_KEY'] = 'b29843ff36cb11b71ba8246ce6fc80ae'
+app.config['SECRET_KEY'] = ''
 
 
 posts = [
